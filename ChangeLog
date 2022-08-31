@@ -1,3 +1,10 @@
+Wed Aug 31 17:38:21 UTC 2022  Chad Elliott  <elliottc@objectcomputing.com>
+
+        * modules/MakeWorkspaceCreator.pm:
+
+          Put double quotes around $(MAKE) in the workspace make file to
+          support installations with spaces in the full path to make.
+
 Tue Jan  7 01:55:14 UTC 2020  Chad Elliott  <elliottc@objectcomputing.com>
 
         * modules/ProjectCreator.pm:
